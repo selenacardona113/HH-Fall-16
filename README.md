@@ -1,2 +1,2 @@
-# hackholyoke_f2016
-Upgrading Hack Holyoke for Fall '16! 
+# Hack Holyoke Fall '16
+Upgrading website code for Fall '16! 
