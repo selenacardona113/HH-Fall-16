@@ -1,0 +1,811 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+@font-face
+{
+    font-family: Campton-Bold;
+    src: url(../fonts/campton/Campton-BoldDEMO.otf);
+}
+@font-face
+{
+    font-family: Campton-Reg;
+    src: url(../fonts/campton/Campton-LightDEMO.otf);
+}
+@font-face
+{
+    font-family: Source Sans;
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);*/
+/*@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);*/
+
+body {
+    overflow-x: hidden;
+    font-family: "Source Code Pro",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.text-muted {
+    color: #777;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    font-weight: 600;
+}
+
+a {
+    color: #0046ad;
+    transition: all ease 0.25s;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: rgba(0, 70, 173, .5);
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Campton-Bold,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.btn-primary {
+    border-color: #fed136;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #daa520;
+    background-color: transparent;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: transparent;
+    color: #daa520;
+    background-color: inherit;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.btn-primary .badge {
+    color: #fff;
+    background-color: transparent0;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border: none;
+    text-transform: uppercase;
+    font-family: Campton-Bold,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+   color: #0046ad;
+    background-color: #fff;
+    transition: all 0.2s ease;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.btn-xl .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, .65);
+}
+
+.navbar-default .navbar-brand {
+    color: #fed136;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #daa520;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    background-color: #fed136;
+    color: #fff !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+    color: #fff !important;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+    color: #fed136;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, 
+.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fed136;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Campton,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #daa520;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #daa520;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #daa520;
+    background-color: transparent;
+}
+
+@media(min-width:768px) {
+    a.link-register, 
+    .navbar-default .navbar-nav>.active>a.link-register:hover,
+    .navbar-default .navbar-nav>.active>a.link-register:focus, 
+    .navbar-default .nav li a.link-register:hover, 
+    .navbar-default .nav li a.link-register:focus, .navbar-default .navbar-nav>.active>a.link-register {
+        background-color: #d60037;
+        color: #fff;
+        border-radius: 10px;
+
+        display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+    }
+    .navbar-default .navbar-nav>.active>a.link-register:hover,
+    .navbar-default .navbar-nav>.active>a.link-register:focus, 
+    .navbar-default .nav li a.link-register:hover, 
+    .navbar-default .nav li a.link-register:focus {
+        -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+    }
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 0px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: rgba(0, 0, 0, .65);
+    }
+
+    .navbar-default.navbar-shrink a {
+        text-shadow: 0px 0px 20px rgba(0,0,0,.5);
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+}
+
+header .header-container {
+    height: 100%;
+}
+
+header .intro-logo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 120vh;
+}
+
+header .intro-logo img {
+    width: 100%;
+    height: 100%;
+    -webkit-filter: drop-shadow(0px 0px 20px #222);
+    filter:         drop-shadow(0px 0px 20px #222); 
+}
+
+#fullsize-kendadeclass { background-image: url(../img/kendade-class.jpg); }
+#fullsize-tracy { background-image: url(../img/tracy.jpg); }
+#fullsize-board { background-image: url(../img/board.jpg); background-position: 72% center; }
+#fullsize-katieeva { background-image: url(../img/katieeva.jpg); background-position: 5% center; }
+
+section.fullsize {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;  
+    min-height: 100vh;
+    height: 100%;   
+}
+
+@media(min-width:768px) {
+    header .intro-logo {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+}
+
+section {
+    padding: 100px 0;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 3.6em;
+}
+
+section h3.section-subheading {
+    text-transform: none;
+    font-family: "Source Code Pro", Source Code Pro, Helvetica,Arial,sans-serif;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+section .hello-text {
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+
+@media(max-width: 500px) {
+    #hello .section-heading {
+        font-size: 3em !important;
+    } 
+}
+
+@media(min-width: 768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+.bg-red {
+    background-color: #d60037;
+    color: #ffffff;
+}
+
+.bg-blue {
+    background-color: #0046ad;
+    color: #ffffff;
+}
+
+.bg-gold {
+    background-color: #daa520;
+}
+
+.bg-white h2 {
+    color: #daa520;
+}
+
+#faq h3, #fall h3, #sponsors h3, #register h3, #schedule h3, #speakers h3, #gameday h3 {
+    margin-bottom: 2.5em;
+}
+
+.speaker-img {
+    width: 100%;
+    border-radius: 100%;
+    border: 10px solid #daa520;
+
+    margin-bottom: 2em;
+    max-width: 400px;
+}
+
+@media(max-width: 768px) {
+    .opening-speaker {
+        margin-bottom: 7em;
+    }
+}
+
+#speakers .speaker-name {
+    font-size: 2em;
+    font-family: "Source Code Pro", Helvetica;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+}
+
+#speakers .speaker-title {
+    font-size: 1.25em;
+    font-family: "Source Code Pro", Helvetica;
+    font-weight: 500;
+}
+
+.faq-question h4 {
+    text-transform: uppercase;
+    font-family: "Source Code Pro", Helvetica;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.faq-question p {
+    margin-bottom: 1em;
+}
+
+.img-left {
+    border-radius: 100%;
+    width: 100%;
+    transition: all ease 0.2s;
+    border: 10px #d60037 solid;
+    margin-bottom: 4em;
+    max-width: 450px;
+}
+
+h4.fall-winners {
+    font-family: Source Code Pro, Serif;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+#fall ul.winners-top3 li {
+    list-style: none;
+}
+
+@media(max-width:768px) {
+    #fall ul.winners-top3, h4.fall-winners {
+        text-align: center;
+        padding: 0px;
+    }
+    #fall ul.winners-top3, .super-img-left {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #fall ul.winners-top3 li {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+#sponsors .sponsor-row, .sponsor-row-top {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 2.5em;
+}
+
+#sponsors img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.special-imgs {
+    margin-top:  0.25vw;
+}
+
+#sponsors img.sponsor-mhc {
+    width: 100%;
+    max-width:100%; 
+}
+
+#sponsors h5.sponsor-text {
+    text-transform: none;
+    font-size: .95em;
+    text-align: center;
+}
+
+.special-break {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .special-break {
+        display: inline;
+    }  
+    .addteq-cimpress {
+        text-align: center !important;
+    }
+    .addteq-cimpress img {
+        margin-left: 0px !important;
+        margin-bottom: 2.5em;
+        margin-right: 0px !important; 
+        width: 75% !important;
+    }  
+    .sponsor-row img {
+        width: 75% !important;
+    }  
+    .sponsor-row, #sponsors .row {
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }  
+    #sponsors .sponsor-row div {
+        margin-bottom: 2.5em;
+        text-align: center !important;
+    }
+    .special-imgs img{
+        margin: 0px 0px 2.5em 0px !important;
+    }
+    #sponsors h5.sponsor-text {
+        font-size: 1.5em;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media(max-width:992px) {
+    br.opposite-break {
+        display: none;
+    }
+}
+
+.sch-day {
+    margin-bottom: 3em;
+}
+h4.schedule-date {
+    font-family: Source Code Pro, Serif;
+    font-size: 1.75em;
+    text-align: center;
+}
+.sch-oneentry {
+    margin-bottom: .75em;
+}
+.sch-oneentry div {
+    font-size: 1.15em;
+}
+.sch-time {
+    font-weight: 700;
+}
+i.sch-italic {
+    font-size: 0.75em;
+}
+i.highlight {
+    color: #d60037;
+}
+
+
+#register label {
+    display: table-cell;
+    width: 100%;
+    color: #fff;
+    font-size: 1.25em;
+    vertical-align: bottom;
+    padding-bottom: 10px;
+}
+
+
+section#register .section-heading {
+    color: #fff;
+}
+
+section#register .form-group {
+    margin-bottom: 25px;
+}
+
+section#register .form-group input,
+section#register .form-group textarea {
+    padding: 20px;
+}
+
+section#register .form-group input.form-control {
+    height: auto;
+}
+
+section#register .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#register .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#register::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register .text-danger {
+    color: #e74c3c;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #daa520;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+/* from http://jsfiddle.net/sRmLV/53/ */
+.vertical-alignment-helper, header .header-container {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+.vertical-align-center, header .intro-text {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content, header .intro-logo {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events:all;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #daa520;
+}
+
+::selection {
+    text-shadow: none;
+    background: #daa520;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #daa520;
+}
+
+/* front hover.css */
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.hvr-pulse-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+#gameday li {
+    list-style: none;
+    text-align: center;
+}
