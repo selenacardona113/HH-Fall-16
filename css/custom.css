@@ -231,7 +231,7 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 900;
     letter-spacing: 1px;
     color: #fff;
-    border-radius: 40px;
+    border-radius: 50px;
 
 }
 
@@ -240,19 +240,22 @@ fieldset[disabled] .btn-xl.active {
     outline: 0;
     color: #000;
     background-color: #fea;
-    border-radius: 20px;
+    border-radius: 20px; 
 
 }
 
 .navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #daa520;
+    border-radius: 20px;
+    background-color: #fea;
+    color: #000;
     background-color: transparent;
 }
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #daa520;
-    background-color: transparent;
+    outline: 0;
+    color: #000;
+    background-color: #fea;
+    border-radius: 20px; 
 }
 
 @media(min-width:768px) {
@@ -720,6 +723,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
+
     background-color: #daa520;
     border-radius: 20px;
 }
