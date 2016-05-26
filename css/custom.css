@@ -85,8 +85,9 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #daa520;
+    color: #fff;
     background-color: transparent;
+
 }
 
 .btn-primary:hover,
@@ -94,9 +95,10 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: transparent;
-    color: #daa520;
-    background-color: inherit;
+    color: #ffffff;
+    background-color: #fec503;
+    border-color: #f6bf01;
+    padding-left: 4px;
 }
 
 .btn-primary:active,
@@ -126,7 +128,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: #fff;
-    background-color: transparent0;
+    background-color: transparent;
 }
 
 .btn-xl {
@@ -136,7 +138,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: Campton-Bold,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-   color: #0046ad;
+    color: #0046ad;
     background-color: #fff;
     transition: all 0.2s ease;
 }
@@ -229,12 +231,16 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 900;
     letter-spacing: 1px;
     color: #fff;
+
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #daa520;
+    color: #000;
+    background-color: #fea;
+    border-radius: 20px;
+
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -256,7 +262,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default .nav li a.link-register:focus, .navbar-default .navbar-nav>.active>a.link-register {
         background-color: #d60037;
         color: #fff;
-        border-radius: 10px;
+        border-radius: 20px;
 
         display: inline-block;
   vertical-align: middle;
@@ -714,6 +720,7 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #daa520;
+    border-radius: 20px;
 }
 
 .btn:focus,
@@ -721,6 +728,7 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+
 }
 
 /* from http://jsfiddle.net/sRmLV/53/ */
