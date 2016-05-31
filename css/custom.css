@@ -635,7 +635,17 @@ section#register .form-group {
 
 section#register .form-group input,
 section#register .form-group textarea {
-    padding: 20px;
+    padding: 20px; 
+}
+
+section#register .typeform {
+
+    
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+    
+   
 }
 
 section#register .form-group input.form-control {
