@@ -243,14 +243,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #000;
-    background-color: #fea;
+    background-color: #f1fac6;
     border-radius: 20px;
 
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 20px;
-    background-color: #fea;
+    background-color: #f1fac6;
     color: #000;
     background-color: transparent;
 }
@@ -258,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:focus {
     outline: 0;
     color: #000;
-    background-color: #fea;
+    background-color: #f1fac6
     border-radius: 20px;
 }
 
