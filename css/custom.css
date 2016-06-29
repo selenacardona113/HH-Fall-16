@@ -486,10 +486,11 @@ h6 {
 
 **/
 
+
 /**
 * color scheme for Fall 2016
 **/
-.bg-red {
+/** .bg-red {
     background-color: #F1615D;
     color: #ffffff;
 }
@@ -516,6 +517,33 @@ h6 {
 
 .bg-white h2 {
     color: #2E5266;
+} **/
+
+/**
+* color scheme for Fall 2016
+**/
+
+/**second section*/
+.bg-red {
+    background-color: #01AFC9;
+}
+
+/**first section*/
+.bg-blue {
+    background-color: #00CCC1;
+}
+
+.bg-lightorange {
+  background-color: #264EB5
+}
+
+/**third section*/
+.bg-yellow {
+  background-color: #264EB5;
+}
+
+.bg-orange {
+    background-color: #264EB5;
 }
 
 #faq h3, #fall h3, #sponsors h3, #register h3, #schedule h3, #speakers h3, #gameday h3 {
