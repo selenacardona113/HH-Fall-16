@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
@@ -20,6 +20,8 @@ var cbpAnimatedHeader = (function() {
 			if( !didScroll ) {
 				didScroll = true;
 				setTimeout( scrollPage, 250 );
+				// get the active element and call blur
+				document.activeElement.blur();
 			}
 		}, false );
 	}
