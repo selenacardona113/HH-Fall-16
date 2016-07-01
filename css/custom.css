@@ -234,7 +234,84 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand.active {
     color: #daa520;
 }
+/* Sigma BG Colors --- BEGIN */
+.container-fluid {
+	margin-left: 5%;
+	margin-right: 5%;
+}
 
+.sigma-bg-almostwhite {
+	background-color: #f0f0ee;
+}
+.sigma-bg-whitegrey {
+	background-color: #e0e1dc;
+}
+.sigma-bg-lightblue {
+	background-color: #9ad1d4;
+}
+.sigma-bg-middleblue {
+	background-color: #66b9bf;
+}
+.sigma-bg-darkblue {
+	background-color: #018b95;
+}
+.sigma-bg-lightorange {
+	background-color: #eeaa7b;
+}
+.sigma-bg-middleorange {
+	background-color: #ea8e4f;
+}
+.sigma-bg-darkorange {
+	background-color: #e37222;
+}
+/*.sigma-bg-lightgray {
+	background-color: #E4E8E8;
+}
+
+.sigma-bg-gray {
+	background-color: #999;
+	color: #FFF;
+}
+
+.sigma-bg-darkgray {
+	background-color: #666;
+	color: #FFF;
+}
+
+.sigma-bg-black {
+	background-color: #444;
+	color: #FFF;
+}
+
+.sigma-bg-blue {
+	background-color: #28B;
+	color: #FFF;
+}
+
+.sigma-bg-red {
+	background-color: #A52;
+	color: #FFF;
+}
+
+.sigma-bg-pink {
+	background-color: #EBE;
+	color: #000;
+}
+
+.sigma-bg-lightblue {
+	background-color: #92C4F8;
+	color: #000;
+}
+
+.sigma-bg-yellow {
+	background-color: #A4A430;
+	color: #FFF;
+}
+
+.sigma-bg-green {
+	background-color: #496;
+	color: #FFF;
+}*/
 /* navbar color */
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
@@ -560,12 +637,14 @@ h6 {
 
 /**second section*/
 .bg-red {
-    background-color: #01AFC9;
+    /**background-color: #01AFC9;*/
+    background-color: #eeaa7b;
 }
 
 /**first section*/
 .bg-blue {
-    background-color: #00CCC1;
+    /**background-color: #00CCC1;*/
+    background-color: #66b9bf;
 }
 
 .bg-lightorange {
@@ -574,7 +653,8 @@ h6 {
 
 /**third section*/
 .bg-yellow {
-  background-color: #264EB5;
+  /**background-color: #264EB5;*/
+  background-color: #eeaa7b;
   color: #000000
 }
 
