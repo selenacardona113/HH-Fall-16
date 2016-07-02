@@ -419,16 +419,16 @@ section.fullsize {
   z-index: 1;
 }
 
-.fullsize:after {
+.fullsize::after {
   background: inherit;
   bottom: 0;
   content: '';
   display: block;
-  height: 50%;
+  height: 100%;
   left: 0;
   position: absolute;
   right: 0;
-  transform: skewY(-1.5deg);
+  transform: skewY(-2.5deg);
   transform-origin: 100%;
   z-index: -1;
 }
@@ -506,9 +506,11 @@ h6 {
     font-weight: 700;
 }
 
+
 @media(max-width: 500px) {
     #hello .section-heading {
         font-size: 3em !important;
+
     }
 }
 
@@ -696,6 +698,28 @@ h4.fall-winners {
     margin-bottom: 2.5em;
 }
 
+section .sponsors{
+
+  background: #41ade5;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.sponsors::after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
 #sponsors img {
     width: 100%;
     max-width: 450px;
@@ -761,7 +785,8 @@ h4.fall-winners {
 }
 
 .sch-day {
-    margin-bottom: 3em;
+    margin
+    -bottom: 3em;
 }
 h4.schedule-date {
     font-family: Source Code Pro, Serif;
