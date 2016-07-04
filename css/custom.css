@@ -362,7 +362,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+/*header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -374,10 +374,40 @@ header {
     background-size: cover;
     -o-background-size: cover;
     height: 100vh;
-}
+}*/
 
 header .header-container {
     height: 100%;
+}
+
+.header-container {
+  text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.header-container::after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 100%;
+  z-index: -1;
 }
 
 header .intro-logo {
@@ -588,10 +618,26 @@ h6 {
     background-color: #01AFC9;
 }
 
+
 /**first section*/
 .bg-blue {
     background-color: #00CCC1;
 }
+
+.bg-blue::after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
 
 .bg-lightorange {
   background-color: #264EB5
@@ -657,6 +703,7 @@ h6 {
     font-family: "Proxima Nova";
 }
 
+
 .img-left {
     border-radius: 100%;
     width: 100%;
@@ -706,7 +753,14 @@ section .sponsors{
   z-index: 1;
 }
 
-.sponsors::after {
+.sponsors-row {
+  background: inherit;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.sponsors-row::after {
   background: inherit;
   bottom: 0;
   content: '';
