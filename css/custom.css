@@ -449,7 +449,7 @@ section.fullsize {
   z-index: 1;
 }
 
-.fullsize::after {
+/*.fullsize::after {
   background: inherit;
   bottom: 0;
   content: '';
@@ -462,7 +462,7 @@ section.fullsize {
   transform-origin: 100%;
   z-index: -1;
 
- }
+ }*/
 
 @media(min-width:768px) {
     header .intro-logo {
@@ -981,6 +981,7 @@ footer {
 }
 
 footer span.copyright {
+    margin-top: 6em;
     text-transform: uppercase;
     text-transform: none;
     line-height: 40px;
@@ -995,6 +996,7 @@ footer ul.quicklinks {
 
 ul.social-buttons {
     margin-bottom: 0;
+    margin-top: 2em;
 }
 
 ul.social-buttons li a {
