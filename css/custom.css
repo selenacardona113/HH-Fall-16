@@ -75,17 +75,18 @@ p.large {
     font-size: 16px;
 }
 
-a,
+a, 
 a:hover,
 a:focus,
 a:active,
 a.active {
     outline: 0;
     font-weight: 600;
+
 }
 
 a {
-    color: #0046ad;
+    color: #00CCC1;
     transition: all ease 0.25s;
 }
 
@@ -96,6 +97,14 @@ a.active {
     color: rgba(0, 70, 173, .5);
     text-decoration: none;
 }
+
+
+
+.a1 {
+    color: #FFFFFF;
+    transition: all ease 0.25s;
+}
+
 /**
 * old fonts
 h1,
@@ -617,8 +626,8 @@ h6 {
 
 /**second section*/
 .bg-red {
-    background-color: #01AFC9;
-
+    background-color: #333;
+    color: #FFFFFF;
 }
 
 .bg-red:after {
