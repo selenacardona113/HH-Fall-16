@@ -468,7 +468,7 @@ section.fullsize {
     header .intro-logo {
         padding-top: 60px;
         padding-bottom: 70px;
-       
+
     }
 }
 
@@ -479,16 +479,17 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-family: "Proxima Nova";
-    font-size: 3.6em;
+    font-family: "Didact Gothic";
+    font-size: 4.1em;
 }
 
 /* Hello World description */
 section h3.section-subheading {
     text-transform: none;
-    font-family: "Proxima Nova";
-    font-size: 1.85em;
+    font-family: "Arimo";
+    font-size: 1.80em;
     font-weight: 400;
+    line-height: 130%;
 }
 
 section .hello-text {
@@ -632,7 +633,7 @@ h6 {
   transform: skewY(-2.5deg);
   transform-origin: 100%;
   z-index: -1;
-  
+
 }
 
 
@@ -725,7 +726,7 @@ h6 {
 
 .faq-question h4 {
     text-transform: uppercase;
-    font-family: "Proxima Nova";
+    font-family: "Arimo";
     font-weight: 700;
     font-size: 1.75em;
 }
@@ -733,7 +734,7 @@ h6 {
 .faq-question p {
     margin-bottom: 1em;
     font-size: 1.3em;
-    font-family: "Proxima Nova";
+    font-family: "Arimo";
 }
 
 
