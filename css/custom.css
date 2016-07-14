@@ -75,7 +75,7 @@ p.large {
     font-size: 16px;
 }
 
-a, 
+a,
 a:hover,
 a:focus,
 a:active,
@@ -433,9 +433,9 @@ header .intro-logo img {
 }
 
 #fullsize-kendadeclass { background-image: url(../img/kendade-class.jpg); }
-#fullsize-tracy { background-image: url(../img/tracy.jpg); }
-#fullsize-board { background-image: url(../img/board.jpg); background-position: 72% center; }
-#fullsize-katieeva { background-image: url(../img/katieeva.jpg); background-position: 5% center; }
+#fullsize-tracy { background-image: url(../img/team.jpg); }
+#fullsize-board { background-image: url(../img/closeup.jpg); background-position: 72% center; }
+#fullsize-katieeva { background-image: url(../img/chapin.jpg); background-position: 5% center; }
 
 section.fullsize {
     text-align: center;
@@ -674,7 +674,7 @@ h6 {
 /**third section*/
 .bg-yellow {
   background-color: #264EB5;
-  color: #000000
+  color: #000000;
 }
 
 .bg-orange {
@@ -737,12 +737,15 @@ h6 {
     text-transform: uppercase;
     font-family: "Arimo";
     font-weight: 700;
+    text-align: left;
     font-size: 1.75em;
 }
 
 .faq-question p {
     margin-bottom: 1em;
+    margin-right: 1.5em;
     font-size: 1.3em;
+    text-align: left;
     font-family: "Arimo";
 }
 
